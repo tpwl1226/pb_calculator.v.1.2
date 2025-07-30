@@ -57,7 +57,7 @@ if submitted:
     pb_df = pd.DataFrame(pb_data)
 
     # 보정계수
-    CMJ_FACTOR = 0.06
+    CMJ_FACTOR = 0.07
     XFINE_FACTOR = {"IOY": 0.65, "IOR": 0.50, "IOB": 0.80}
 
     # 타겟 색소 총량 계산
